@@ -34,7 +34,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQ
 from pyrogram.errors.exceptions.flood_420 import FloodWait
 from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant, MessageNotModified
 
-AHBot = Client(Config.BOT_USERNAME, bot_token=Config.BOT_TOKEN, api_id=Config.API_ID, api_hash=Config.API_HASH)
+AHBot = Client(Config.Watermark_boy_workerbot, bot_token=Config.7684281670:AAGZtPXwgd4TRU9PR3UkxZ8zQOEl8a_CFjA, api_id=Config.28842370, api_hash=Config.b55db1633fdf973f2e00bdf13b62248e)
 
 
 @AHBot.on_message(filters.command(["start", "help"]) & filters.private)
